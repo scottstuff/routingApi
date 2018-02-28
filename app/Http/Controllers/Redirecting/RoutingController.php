@@ -24,13 +24,11 @@ class RoutingController extends Controller {
 
         $this->baseUrl = 'https://min-api.cryptocompare.com/data/';
         $this->siteNameMap['newsApi'] = 'http://172.17.0.3';
-        $this->siteNameMap['crypto'] = 'http://172.17.0.4';
-        $this->siteNameMap['encrypt'] = 'http://172.17.0.4';
-        $this->siteNameMap['wp'] = 'http://172.17.0.4';
-        $this->siteNameMap['blue'] = 'http://172.17.0.4';
-        $this->siteNameMap['dru8another'] = 'http://172.17.0.4';
-        $this->siteNameMap['dru8'] = 'http://172.17.0.2';
-        $this->siteNameMap['default'] = 'http://172.17.0.2';
+        $this->siteNameMap['crypto'] = 'http://172.17.0.5';
+        $this->siteNameMap['dru8'] = 'http://172.17.0.6';
+        $this->siteNameMap['dru8another'] = 'http://172.17.0.7';
+        $this->siteNameMap['wp'] = 'http://172.17.0.8';
+        $this->siteNameMap['default'] = 'http://172.17.0.6';
 
     }
 // https://accounts.google.com/signin/oauth/oauthchooseaccount?client_id=292824132082.apps.googleusercontent.com&as=2dtUNAIpHDgMKh3pfvUMsg&nosignup=1&destination=https%3A%2F%2Fdevelopers.google.com&approval_state=!ChR1WUd3YlN0VmtRYUhobXNXR2VpdRIfMHdHUnZVN3dMTThZWVBySnhCXzdTNUlGTFd5S0hSWQ%E2%88%99ACThZt4AAAAAWpb9Nr44q25oBFjq_qHcjD3F73ROzDY6&delegation=1&xsrfsig=AHgIfE-jcoxyTq-uWoijNmXhC6m7FRS1sw&flowName=GeneralOAuthFlow
