@@ -1,0 +1,50 @@
+/* hade css */
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("/images/hade.jpg");
+
+    /* Set a specific height */
+    height: 45%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.row-spacing {
+    margin: 10px;
+}
+
+.display-graph {
+    width: 100%;
+}
+
+.display-graph-options {
+	position: absolute;
+}
+.option-spacing {
+	margin: 0px;
+}
+
+.label-spacing {
+    margin-left: 2%;
+}
+.loading-options {
+	margin-top: 8%;
+	left: 40%;
+}
+
+.dim_div {
+	opacity: .5;
+}
+
+.option-btn {
+	margin-left: 3%;
+}
