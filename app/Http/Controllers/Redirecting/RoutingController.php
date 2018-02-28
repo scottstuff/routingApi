@@ -23,11 +23,12 @@ class RoutingController extends Controller {
     public function __construct() {
 
         $this->baseUrl = 'https://min-api.cryptocompare.com/data/';
-        $this->siteNameMap['crypto'] = 'http://172.17.0.3';
-        $this->siteNameMap['encrypt'] = 'http://172.17.0.3';
-        $this->siteNameMap['wp'] = 'http://172.17.0.3';
-        $this->siteNameMap['blue'] = 'http://172.17.0.3';
-        $this->siteNameMap['dru8another'] = 'http://172.17.0.3';
+        $this->siteNameMap['newsApi'] = 'http://172.17.0.3';
+        $this->siteNameMap['crypto'] = 'http://172.17.0.4';
+        $this->siteNameMap['encrypt'] = 'http://172.17.0.4';
+        $this->siteNameMap['wp'] = 'http://172.17.0.4';
+        $this->siteNameMap['blue'] = 'http://172.17.0.4';
+        $this->siteNameMap['dru8another'] = 'http://172.17.0.4';
         $this->siteNameMap['dru8'] = 'http://172.17.0.2';
         $this->siteNameMap['default'] = 'http://172.17.0.2';
 
