@@ -62,9 +62,9 @@ Log::debug('this->redirectUrl: ' . $this->redirectUrl);
 
 		$this->request = $this->init($request);
 
-		if ($this->redirectUrl == $this->siteNameMap['default']) {
-			return '<h1>basic</h1>';
-		}
+		// if ($this->redirectUrl == $this->siteNameMap['default']) {
+		// 	return '<h1>basic</h1>';
+		// }
 Log::debug('this->Url: ' . $this->Url);
 Log::debug('this->fullUrl: ' . $this->fullUrl);
 // error_log('this->request: ' . print_r($this->request, true));
