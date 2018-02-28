@@ -105,7 +105,7 @@ Log::debug('bodyl: ' . $body);
   	private function getRedirectUrl(Request $request) {
 
         $this->Url = $request->Url();
-        // $this->fullUrl = $request->fullUrl();
+        $this->fullUrl = $request->fullUrl();
         $tmp_start = strpos($this->Url, '//') + 2;
         $tmp_end = strpos($this->Url, '.');
         $tmp_length = $tmp_end - $tmp_start;
